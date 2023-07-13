@@ -1,0 +1,93 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.sub_Main{
+    display: flex;
+    margin: 20vh;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    color: white;
+}
+.getTheWings{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'cambria';
+    margin: 8vh 5vw 0vh 5vw;
+}
+.getTheWingsLorem{
+    text-align: center;
+    margin: 3vh 0vw;
+    font-size: 20px;
+    font-family: 'calibri';
+}
+.div2{
+    display: flex;
+    height: 60vh;
+    width: 40vw;
+}
+.img1{
+    height: 60vh;
+    width: 40vw;
+    border-radius: 20px;
+    transition: 0.15s;
+    margin-left: 3vw;
+}
+.img1:hover{
+    transform: scale(1.05);
+}
+
+
+
+.imgBoxDiv{
+    display: flex;
+    margin: 0vh auto;
+    height: 80vh;
+    width: 80vw;
+    border: 1px solid white;
+}
+.imgBox{
+    height: 100%;
+    width: 80vw;
+}
+.prevNextBtn{
+    height: 100px;
+    position: absolute;
+    margin: 40vh 78.2vw;
+    opacity: 0.5;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.prevNextBtn:hover{
+    transform: scale(1.4);
+}
+.prevNextBtn1{
+    height: 100px;
+    position: absolute;
+    margin: 40vh 0.15vw;
+    opacity: 0.5;
+    background-color: rgb(130, 130, 130);
+    color: white;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.prevNextBtn1:hover{
+    transform: scale(1.4);
+}
+.heading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0vw;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'cambria';
+    color: white;
+}

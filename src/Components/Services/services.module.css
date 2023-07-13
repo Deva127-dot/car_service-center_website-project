@@ -1,0 +1,117 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+/* Div1 */
+
+.div1{
+    display: flex;
+    background-image: url('/src/Components/Services/serviceImg.png');
+    height: 90vh;
+    width: 100;
+    background-size: cover;
+}
+.div1Heading{
+    display: flex;
+    font-size: 100px;
+    font-family: 'cambria';
+    font-weight: bold;
+    margin: 56vh 15vw;
+    text-shadow: 0px 0px 20px black;
+    color: rgb(255, 231, 231);
+}
+
+/* Div2 */
+
+.div2{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 80vw;
+    margin: 10vh auto;
+}
+.div2_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'cambria';
+    font-weight: bold;
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(0, 0, 54);
+    border-radius: 10px;
+    margin-top: 7vh;
+    padding: 20px;
+}
+.div2_1:hover{
+    background-color: rgb(0, 0, 70);
+}
+.div2_2{
+    display: flex;
+    height: 100%;
+    width: 40vw;
+    padding: 10px;
+}
+.div2Lorem{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'calibri';
+    margin: 2vh 5vw;
+    color: rgb(182, 182, 182);
+}
+
+/* Div3 */
+
+.div3{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 85vw;
+    margin: 3vh auto;
+}
+.div3Box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 25vh;
+    width: 27vw;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.div3Box:hover{
+    background-color: rgb(0, 0, 50);
+    transform: scale(1.1);
+}
+.div3Icons{
+    display: flex;
+    font-size: 70px;
+    margin: 2vh auto;
+    color: yellow;
+    transition: 0.15s;
+    margin-top: 20px;
+}
+.div3Icons:hover{
+    transform: scale(1.2);
+}
+.div3IconsHeading{
+    display: flex;
+    font-family: 'cambria';
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0px auto;
+}
+
+/* Div4 */
+
+.div4{
+    display: flex;
+    flex-direction: column;
+    margin: 8vh 0vw;
+}
