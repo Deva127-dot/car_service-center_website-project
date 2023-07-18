@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./home.module.css";
 import MainNavbar from "../MainNavbar";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
-import EngineeringIcon from "@mui/icons-material/Engineering";
-import ConstructionIcon from "@mui/icons-material/Construction";
+import { GiGears } from "react-icons/gi";
+import { MdEngineering } from "react-icons/md";
+import { FaTools } from "react-icons/fa";
 import Footer from "../Footer";
 
 function Home() {
@@ -52,7 +52,7 @@ function Home() {
         <div className={styles.div2_1}>
           <p className={styles.div2_1Heading}>
             {" "}
-            <SettingsSuggestIcon className={styles.div2Icon} />
+            <GiGears className={styles.div2Icon} />
             Quality Servicing
           </p>
           <p className={styles.div2Lorem}>
@@ -66,7 +66,7 @@ function Home() {
         <div className={styles.div2_1}>
           <p className={styles.div2_1Heading}>
             {" "}
-            <EngineeringIcon className={styles.div2Icon} />
+            <MdEngineering className={styles.div2Icon} />
             Expert Workers
           </p>
           <p className={styles.div2Lorem}>
@@ -80,7 +80,7 @@ function Home() {
         <div className={styles.div2_1}>
           <p className={styles.div2_1Heading}>
             {" "}
-            <ConstructionIcon className={styles.div2Icon} />
+            <FaTools className={styles.div2Icon} />
             Modern Equipment
           </p>
           <p className={styles.div2Lorem}>

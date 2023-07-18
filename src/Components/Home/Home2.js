@@ -1,16 +1,15 @@
-import React from 'react';
-import styles from './home.module.css';
+import React from "react";
+import styles from "./home.module.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
-import EngineeringIcon from "@mui/icons-material/Engineering";
-import ConstructionIcon from "@mui/icons-material/Construction";
+import { GiGears } from "react-icons/gi";
+import { MdEngineering } from "react-icons/md";
+import { FaTools } from "react-icons/fa";
 
 function Home2() {
   return (
     <div className={styles.main}>
-
       {/* Div1 */}
-      
+
       <div className={styles.div1}>
         <div className={styles.div1Img}>
           <img
@@ -40,7 +39,7 @@ function Home2() {
         <div className={styles.div2_1}>
           <p className={styles.div2_1Heading}>
             {" "}
-            <SettingsSuggestIcon className={styles.div2Icon} />
+            <GiGears className={styles.div2Icon} />
             Quality Servicing
           </p>
           <p className={styles.div2Lorem}>
@@ -54,7 +53,7 @@ function Home2() {
         <div className={styles.div2_1}>
           <p className={styles.div2_1Heading}>
             {" "}
-            <EngineeringIcon className={styles.div2Icon} />
+            <MdEngineering className={styles.div2Icon} />
             Expert Workers
           </p>
           <p className={styles.div2Lorem}>
@@ -68,7 +67,7 @@ function Home2() {
         <div className={styles.div2_1}>
           <p className={styles.div2_1Heading}>
             {" "}
-            <ConstructionIcon className={styles.div2Icon} />
+            <FaTools className={styles.div2Icon} />
             Modern Equipment
           </p>
           <p className={styles.div2Lorem}>
@@ -103,25 +102,27 @@ function Home2() {
             animi in doloribus tempora consequuntur maiores. Eveniet sunt
             consequuntur, amet architecto nobis laudantium?
           </p>
+
           <div className={styles.div3_subdiv}>
             <div className={styles.div3_subdivNo}>01</div>
             <div>
-              <p className={styles.div3_subdivHeading}>Professional & Expert</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a className={styles.div3_subdivHeading}>Professional & Expert</a>
+              <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
             </div>
           </div>
+
           <div className={styles.div3_subdiv}>
             <div className={styles.div3_subdivNo}>02</div>
             <div>
-              <p className={styles.div3_subdivHeading}>Professional & Expert</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a className={styles.div3_subdivHeading}>Professional & Expert</a>
+              <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
             </div>
           </div>
           <div className={styles.div3_subdiv}>
             <div className={styles.div3_subdivNo}>03</div>
             <div>
-              <p className={styles.div3_subdivHeading}>Professional & Expert</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <a className={styles.div3_subdivHeading}>Professional & Expert</a>
+              <a>Lorem ipsum dolor sit amet consectetur adipisicing.</a>
             </div>
           </div>
           <button className={styles.div3Btn}>
@@ -130,7 +131,7 @@ function Home2() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home2
+export default Home2;
